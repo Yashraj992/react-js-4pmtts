@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="">
+    <script></script>
+    <noscript></noscript>
+    <style>
+        h2 {
+            font-size: 40px;
+        }
+
+        li {
+            font-size: 20px;
+            line-height: 50px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 450px 1fr 1fr;
+            grid-template-rows: 150px;
+            column-gap: 20px;
+        }
+
+        .item {
+            border: 3px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>What is grid property in CSS?</h2>
+
+    <div>
+        <li>It is a CSS property that offers a grid-based layout system, with rows and columns, making it easier to
+            design web pages without floats and posotioning.</li>
+        <li>Property values:</li>
+        <li>Grid-template-rows/columns: It is used to soecifies the size of rows and columns.</li>
+        <li>Grid-template-areas: It is used to specifies the grid layout using named items.</li>
+        <li>Example:</li>
+    </div>
+
+    <div class="grid">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+
+</body>
+
+</html>

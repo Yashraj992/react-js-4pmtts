@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <link rel="stylesheet" href="">
+    <script></script>
+    <noscript></noscript>
+    <style>
+        h2 {
+            font-size: 40px;
+        }
+
+        li {
+            font-size: 20px;
+            line-height: 50px;
+        }
+
+        #div2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 5s;
+        }
+
+        @keyframes example {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>What is animations property in CSS?</h2>
+
+    <div>
+        <li>An animation lets an element gradually change from one style to another.</li>
+        <li>You can change as many CSS properties you want, as many times as you want.</li>
+        <li>To use animation you must first specify some keyframes for the animation.</li>
+        <li>Keyframes hold what styles the element will have at certain times.</li>
+        <li>When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current
+            style to the new style at certain times.</li>
+        <li>Example:</li>
+    </div>
+    <div id="div2"></div>
+</body>
+
+</html>

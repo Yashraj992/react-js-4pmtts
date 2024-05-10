@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root-variables</title>
+    <link rel="stylesheet" href="">
+    <script></script>
+    <noscript></noscript>
+    <style>
+        :root {
+            --primary-color: #fff;
+            --background-color: #000;
+        }
+
+        body {
+            color: var(--primary-color);
+            background-color: var(--background-color);
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        li {
+            font-size: 20px;
+            line-height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>What is root-variables property in CSS?</h2>
+
+    <div>
+        <li>CSS :root selector lets you define global variables that can be used in your stylesheets.</li>
+        <li>These variables, also known as custom css properties, providea convenient way of storing and reusing values,
+            making your stylesheet more modular and easier to maintain.</li>
+        <li>To define a :root variable, use the :root selector followed by the variable name and value, surrounded by
+            double dashes.</li>
+        <li>Example in style tag of head tag.</li>
+    </div>
+</body>
+
+</html>

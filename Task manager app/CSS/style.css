@@ -1,0 +1,129 @@
+@import url('Font-face.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: Glacial;
+}
+
+#task-manager-header {
+    width: 100%;
+    height: auto !important;
+    margin: 0;
+    background-color: #546e7a;
+}
+
+.btn-task {
+    background-color: #eeff41 !important;
+    border: none;
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+}
+
+#task-manager-conent {
+    width: 100%;
+    height: auto !important;
+    margin: 0;
+    color: #242424;
+}
+
+#border {
+    border-bottom: 2px solid gray !important;
+}
+
+::placeholder {
+    font-size: 20px !important;
+    letter-spacing: 2px;
+}
+
+#submit {
+    background-color: #eeff41;
+    width: 120px !important;
+    margin-left: 350px !important;
+}
+
+#tast-list {
+    height: auto !important;
+    width: 100%;
+}
+
+
+#task-manager-footer {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    font-family: ellora;
+    background-color: #546e7a;
+}
+
+/* @media only screen and (max-width:558px) {
+    #toggle-menu {
+        background-color: #eeff41 !important;
+        color: black;
+        padding: 10px 7px;
+        margin-left: 15px;
+    }
+
+    #submit {
+        margin-left: 150px !important;
+    }
+
+    #input {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #table-responsive {
+        width: 100% !important;
+        height: auto !important;
+    }
+} */
+
+@media only screen and (max-width:768px) {
+    #toggle-menu {
+        background-color: #eeff41 !important;
+        color: black;
+        padding: 10px 7px;
+        margin-left: 15px;
+    }
+
+    #submit {
+        margin-left: 150px !important;
+    }
+
+    #input {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #table-responsive {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    #toggle-menu {
+        background-color: #eeff41 !important;
+        color: black;
+        padding: 10px 7px;
+        margin-left: 15px;
+    }
+
+    #submit {
+        margin-left: 150px !important;
+    }
+
+    #input {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #table-responsive {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
