@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<div class="class"></div>
+<body>
+    <script>
+        // concate()
+        var class1 = ["Yashraj", "Pruthvi", "Disha", "Mansi"]
+        var class2 = ["Dhaval", "Jaypal", "Nax", "Yashvi"]
+        var fclass = class1.concat(class2);
+        document.write(fclass + "<br>" + "<br>");
+
+        // push()
+        var emp = ["Krutik", "Raj", "Jenish"]
+        emp.push("Jay")
+        document.write(emp + "<br>" + "<br>");
+
+        // pop()
+        var cource = ["HTML", "CSS", "JS", "BOOSTRAP"]
+        cource.pop("BOOSTRAP")
+        document.write(cource + "<br>" + "<br>");
+
+        // copyWithIn()
+        var fruit = ["Mango", "Banana", "Kiwi", "Grapes"]
+        fruit.copyWithin(3, 0)
+        document.write(fruit + "<br>" + "<br>");
+
+        // entries()
+        var emp = ["Yashraj", "Pruthvi", "Jaypal", "Dhaval"]
+        let text = "";
+        for (let x of emp.entries()) {
+            text += x + "<br>";
+        }
+        document.getElementById("class").innerHTML = text;
+    </script>
+</body>
+
+</html>

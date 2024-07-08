@@ -1,0 +1,24 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>array</title>
+    </head>
+    <body>
+        <p id="class"></p>
+        <p id="class2"></p>
+        <p id="class3"></p>
+        <p id="class4"></p>
+        <script>
+            var classmate = ["pruthvi", "dhaval", "nax", "jaypal", "krishna" , "yashvi", "disha", "yashraj",]
+            document.getElementById("class").innerHTML = classmate;
+            classmate.pop();
+            document.getElementById("class2").innerHTML = classmate;
+            classmate.push("brijesh");
+            document.getElementById("class3").innerHTML = classmate;
+            classmate.reverse();
+            document.getElementById("class4").innerHTML = classmate;
+        </script>
+    </body>
+    </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="user">
+    <button type="button" onclick="year()">Check</button>
+    <script>
+        let yr = document.getElementById("user").value;
+        function year(){
+            
+            if (yr % 4 == 0) {
+                document.write("year is leap year")
+            }
+            else {
+               document.write("year is leap not year")
+            }
+        }
+
+    </script>
+</body>
+</html>
