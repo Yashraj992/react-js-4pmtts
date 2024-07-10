@@ -1,0 +1,6 @@
+.study{
+    color: red;
+    display: inline-block;
+    animation: bounce infinite;
+    animation-duration: 3s;
+}

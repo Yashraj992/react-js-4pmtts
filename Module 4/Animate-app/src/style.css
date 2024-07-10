@@ -1,0 +1,19 @@
+.main {
+    margin-left: 35%;
+    width: 50%;
+    font-size: 24px;
+}
+
+.study {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: flash infinite;
+    animation-duration: 2s;
+}
+
+.mobile {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: heartBeat infinite;
+    animation-duration: 3s;
+}
