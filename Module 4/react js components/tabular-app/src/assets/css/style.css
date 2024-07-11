@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    padding: 25px;
+    box-shadow: 4px 4px 4px 2px darkgray;
+}
+
+.call {
+    font-size: 22px;
+    width: 30%;
+}
+
+.search {
+    width: 50%;
+}
+
+.search input {
+    padding: 15px;
+    width: 90%;
+}
+
+.account button {
+    width: 200px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+nav {
+    margin-top: 5px;
+    padding: 25px;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 22px;
+    margin: 2px 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.slider{
+    margin-top: 5px;
+    height: 550px;
+    width: 100%;
+    padding: 40px;
+    background-color: cadetblue;
+}
+.slider img{
+    width: 100%;
+    height: 450px;
+}
+
+.contant{
+    margin-top: 5px;
+    padding: 40px;
+    background-color: cadetblue;
+}
+.box1{
+    background-color: darkgrey;
+    height: 300px;
+    margin: 10px 0;
+}
+footer{
+    margin-top: 5px;
+    padding: 20px;
+    background-color: black;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
