@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.main{
+    height: 90vh;
+    background: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("assets/img/dark-wallpapers.avif");
+    background-size: cover;
+}
+.main-btn{
+    outline: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-bottom: 1px;
+}
+.about{
+    height: 99vh;
+    background: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("assets/img/about.jpg");
+    background-size: cover;
+}

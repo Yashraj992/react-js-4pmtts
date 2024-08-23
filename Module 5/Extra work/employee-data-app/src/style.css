@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.details
+{
+    margin: 30px;
+    padding: 15px;
+    float: left;
+    box-shadow: 0 0 3px 3px;
+    width: 150px;
+    height: auto;
+}

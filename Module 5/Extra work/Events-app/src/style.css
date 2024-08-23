@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url("./assests/image/1.jpg");
+    background-size: cover;
+}

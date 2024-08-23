@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-align: center;
+}
+.main{
+    float: left;
+    width: 25%;
+    margin: 50px;
+    box-shadow: 0 0 5px 3px gray;
+}
+.box{
+    padding: 15px;
+}

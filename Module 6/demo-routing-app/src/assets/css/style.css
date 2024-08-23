@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* Nav */
+.nav {
+    padding: 20px 120px;
+}
+.logo{
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    gap: 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+.nav ul li a:hover{
+    color: #704204;
+}
+.nav .icons i:hover{
+    color: #704204;
+}
+
+/* Content */
+.content{
+    height: 99vh;
+}
+.content button{
+    background-color: #704204;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+/* Footer */
+.foooter{
+    height: 99vh;
+}
+.foooter h1{
+    padding-top: 120px !important;
+    font-size: 50px;
+}
+.foooter button{
+    background-color: #704204;
+    border: none;
+}
+.f-content{
+    margin-top: 140px;
+}
+
+/* Content */
+.about p a{
+    text-decoration: none;
+    color: black;
+}
+
+/* About */
+.about-c:hover{
+    scale: .9;
+    transition: .9s ease all;
+    color: #704204;
+}
+
+/* Shop  */
+.shop p a{
+    text-decoration: none;
+    color: black;
+}
+
+.shop-c:hover{
+    scale: 1.1;
+    transition: .9s ease all;
+    color: #704204;
+}
+
+/* Blog */
+.blog p a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-i:hover{
+    scale: .9;
+    border-radius: 10px;
+    transition: .9s ease all;
+}
+
+/* Cart */
+.cart p a{
+    text-decoration: none;
+    color: black;
+}
+
+.cart-btn{
+    background-color: #704204;
+    color: white;
+}
+
+/* Sidebar */
+.side-btn{
+    background-color: #704204;
+    border: none;
+    color: white;
+}

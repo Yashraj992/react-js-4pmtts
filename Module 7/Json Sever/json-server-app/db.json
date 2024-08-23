@@ -1,0 +1,169 @@
+{
+    "menu": [
+        {
+            "id":1,
+            "Breakfast":"7:00 - 10:00",
+            "BreakfastItem":"10"
+        },
+
+        {
+            "id":2,
+            "Lunch":"11:00 - 4:00",
+            "LunchItem":"10"
+        },
+
+        {
+            "id":3,
+            "Dinner":"7:00 - 12:00",
+            "DinnerItem":"10"
+        }
+    ],
+    "addFood": [
+        {
+            "id":1,
+            "name":"Masala Tea",
+            "Chai":"https://th.bing.com/th/id/OIP.O2IfzcovlZu3D5OnX5goRwHaFi?w=230&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "price":"20rs",
+            "qty":"150ml"
+        },
+
+        {
+            "id":2,
+            "name":"Panner Angaara",
+            "Chai":"https://th.bing.com/th/id/OIP.GtbO6uoM-4lvCH8g4RO5LgHaEK?w=289&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "price":"350",
+            "qty":"500gm"
+        },
+
+        {
+            "id":3,
+            "name":"Lasaniya Sizler",
+            "Chai":"https://th.bing.com/th/id/OIP.TsYH1c4KWAjcJtgLKh2i7AHaE8?w=239&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "price":"250",
+            "qty":"250gm"
+        },
+
+        {
+            "id":4,
+            "name":"Lemon Mojito",
+            "Chai":"https://i.pinimg.com/originals/44/a3/a2/44a3a2b008e44dcb12fa564663daf7aa.jpg",
+            "price":"189",
+            "qty":"150ml"
+        },
+
+        {
+            "id":5,
+            "name":"Gravy Manchurium",
+            "Chai":"https://th.bing.com/th/id/OIP.npbQFKsPHxJG9LVieHaoCAHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "price":"199",
+            "qty":"300gm"
+        },
+
+        {
+            "id":6,
+            "name":"Maxicun Rice",
+            "Chai":"https://th.bing.com/th/id/OIP.VQsnAIb5emIJYEiVKOan8AHaE8?w=251&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "price":"300",
+            "qty":"200gm"
+        }
+    ],
+    "bookTable": [
+        {
+            "table":1,
+            "NameOfTableBooker":"hitesh",
+            "person":6,
+            "timing":"1 hour",
+            "contact":125549797
+        },
+
+        {
+            "table":2,
+            "NameOfTableBooker":"yash",
+            "person":4,
+            "timing":"1.5 hour",
+            "contact":125549797
+        },
+
+        {
+            "table":3,
+            "NameOfTableBooker":"pratik",
+            "person":2,
+            "timing":"2 hour",
+            "contact":125549797
+        },
+
+        {
+            "table":4,
+            "NameOfTableBooker":"krishna",
+            "person":10,
+            "timing":"2 hour",
+            "contact":125549797
+        }
+    ],
+    "review": [
+        {
+            "foodReview":"Breakfast is awesome",
+            "Rating":"8/10",
+            "waiterReview":"All waiters are friendly"
+        }
+    ],
+    "contact": [
+        {
+            "id":1,
+            "name":"pragnesh",
+            "manager":85641222
+        },
+        {
+            "id":2,
+            "name":"Kumar",
+            "Owner":85641222
+        },
+        {
+            "id":3,
+            "name":"jayesh",
+            "tableBook":85641222
+        }
+    ],
+    "bill": [
+        {
+            "id":1,
+            "items":12,
+            "amount":2780,
+            "payment":"complete"
+        },
+
+        {
+            "id":2,
+            "items":10,
+            "amount":2180,
+            "payment":"complete"
+        },
+
+        {
+            "id":3,
+            "items":4,
+            "amount":800,
+            "payment":"uncomplete"
+        },
+
+        {
+            "id":4,
+            "items":15,
+            "amount":3500,
+            "payment":"complete"
+        }
+    ],
+    "customer": [
+        {
+            "id":1,
+            "name":"yash",
+            "contact":86587522
+        },
+
+        {
+            "id":2,
+            "name":"divya",
+            "contact":86587522
+        }
+    ]
+}

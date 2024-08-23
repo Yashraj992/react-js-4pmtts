@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-21.jpg");
+    background-size: cover;
+}

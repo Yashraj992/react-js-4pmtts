@@ -1,0 +1,62 @@
+$margin: auto;
+$padding: 20px;
+$text-align: center;
+$text-weight: 800;
+$font-h1: 40px;
+$width-hr: 40px;
+$borer-hr: 2px solid red;
+$content-flex: flex;
+$details-bg: #183153;
+$width : 50%;
+$detail-color: white;
+$justify: space-around;
+$data-width: 150px;
+$data-padding: 30px;
+$margin-top: 20px;
+$icon-space: 10px;
+$icon-size: 2px solid gray;
+$icon-padding: 20px;
+$icon-radius: 150px;
+$icon-color: gray;
+
+.main{
+    margin: $margin;
+    padding: $padding;
+    text-align: $text-align;
+}
+.h1{
+    font-weight: $text-weight;
+    font-size: $font-h1;
+}
+.hr{
+    width: $width-hr;
+    border: $borer-hr;
+}
+.content{
+    display: $content-flex;
+}
+.detail{
+    background-color: $details-bg;
+    width: $width;
+    color: $detail-color;
+}
+.map{
+    width: $width;
+}
+.box{
+    display: $content-flex;
+    justify-content: $justify;
+}
+.data{
+    width: $data-width;
+    margin-top: $margin-top; 
+}
+.icon-2{
+    padding: $icon-space;
+}
+.icon{
+    border: $icon-size;
+    padding: $icon-padding;
+    border-radius: $icon-radius;
+    color: $icon-color;
+}

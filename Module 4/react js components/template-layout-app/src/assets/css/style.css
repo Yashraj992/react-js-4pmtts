@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eb5757;
+    padding: 15px;
+}
+
+.sec ul {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.sec ul li a:hover {
+    color: black;
+    transition: 1s ease all;
+}
+
+.sec {
+    margin-right: 80px;
+}
+
+.logo img {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+.bg {
+    height: 89vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/1.jpg');
+    background-size: cover;
+    position: relative;
+    padding: 140px 0 0 250px;
+}
+
+.bg h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.bg p {
+    color: white;
+    font-size: 22px;
+}
+
+.bg button {
+    position: absolute;
+    color: white;
+    padding: 10px 40px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.bg button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s ease all;
+}
+
+.sec2 {
+    height: 100vh;
+    padding: 40px 130px;
+}
+
+.sec2-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail1 {
+    line-height: 35px;
+}
+
+.detail2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.box {
+    height: 550px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.shop {
+    background-color: #222222;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.donate {
+    background-color: #222222;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.gift {
+    background-color: #222222;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.box p {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.box b {
+    font-size: 35px;
+    color: white;
+    margin: 40px;
+}
+
+.box h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.shop:hover {
+    border: 5px solid #eb5757;
+    background-color: #eb5757;
+    color: white;
+    transition: 0.5s ease all;
+}
+
+.donate:hover {
+    border: 5px solid #eb5757;
+    background-color: #eb5757;
+    color: white;
+    transition: 0.5s ease all;
+}
+
+.gift:hover {
+    border: 5px solid #eb5757;
+    background-color: #eb5757;
+    color: white;
+    transition: 0.5s ease all;
+}
+
+.section3 {
+    height: 99vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding: 150px;
+}
+
+.section3 h1 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.section3 p {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.section3 button {
+    padding: 8px 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section3 button:hover {
+    background-color: #eb5757;
+    color: white;
+    transition: 1s ease all;
+}
+
+.section4 {
+    height: 99vh;
+    padding: 20px 120px;
+}
+
+.card {
+    display: flex;
+    margin-top: 10px;
+    padding: 2px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card .img1 {
+    border-radius: 10px;
+    height: 500px;
+    width: 410px;
+    background-image: url('../images/card1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .img1:hover {
+    border: 5px solid white;
+    transition: 1s ease all;
+}
+
+.card .img2 {
+    border-radius: 10px;
+    height: 500px;
+    width: 410px;
+    background-image: url('../images/card2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .img2:hover {
+    border: 5px solid white;
+    transition: 1s ease all;
+}
+
+.card .img3 {
+    border-radius: 10px;
+    height: 500px;
+    width: 410px;
+    background-image: url('../images/card3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card .img3:hover {
+    border: 5px solid white;
+    transition: 1s ease all;
+}
+
+.card .name {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.card .price {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card button {
+    margin-top: 15px;
+    padding: 8px 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #eb5757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s ease all;
+}
+
+del {
+    color: #eb5757;
+}
+
+.section5 {
+    height: 99vh;
+    padding: 70px;
+    display: flex;
+    position: relative;
+}
+
+.section5 .img {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 450px;
+    width: 400px;
+    background-image: url('../images/hr.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.section5 .img:hover{
+    border: 5px solid white;
+    transition: 1s ease all;
+}
+
+.section5 .contant {
+    margin-left: 270px;
+    padding: 10px 0 0 400px;
+    border-radius: 10px;
+    width: 1000px;
+    background-color: #222222;
+    color: white;
+}
+
+.section5 p {
+    font-size: 20px;
+}
+
+.section5 b {
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222222;
+    padding: 90px;
+}
+footer p{
+    color: white;
+}
+footer span{
+    color: #eb5757;
+}
