@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-2</title>
+    <style>
+        h3{
+            font-size: 24px;
+        }
+        li{
+            font-size: 20px;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explain the difference between BrowserRouter, Route, Link, and Switch components in React Router.</h1>
+    <h2>Ans:</h2>
+
+    <p>
+        <h3>BrowserRouter</h3>
+        <li>It is the top-level component that enables routing in a React application. It uses the HTML5 history API (pushState, popState, etc.) to keep your UI in sync with the browser's URL.</li>
+        <li>Key Role: Wraps the entire app to provide routing context to child components.</li>
+
+        <h3>Route</h3>
+        <li>Defines a specific route by mapping a URL path to a React component. When the URL matches the path prop, the associated component is rendered.</li>
+
+        <h3>Link</h3>
+        <li>Provides navigation between routes without causing a page refresh. It's an enhanced version of an anchor (&lt;a&gt;) tag, but instead of reloading the page, it updates the URL and triggers React Router's routing logic.</li>
+        <li>Key Role: Ensures seamless transitions between views.</li>
+
+        <h3>Switch</h3>
+        <li>Renders the first Route that matches the current URL.</li>
+        <li>Key Role: Ensures that only one route is rendered at a time.</li>
+    </p>
+</body>
+</html>

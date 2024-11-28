@@ -1,0 +1,16 @@
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+.main{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.age{
+    box-shadow: 2px 5px 10px 10px gray;
+    padding: 50px;
+    font-size: 20px;
+}

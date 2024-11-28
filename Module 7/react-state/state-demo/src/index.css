@@ -1,0 +1,13 @@
+*{
+  background-color: darkgray;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+}
+.user{
+  padding: 40px;
+  box-shadow: 2px 3px 5px 5px black;
+}

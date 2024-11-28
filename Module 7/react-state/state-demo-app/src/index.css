@@ -1,0 +1,19 @@
+*{
+  background-color: darkgray;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+h1{
+  padding: 20px;
+  box-shadow: 2px 5px 10px 2px black;
+}
+button{
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
