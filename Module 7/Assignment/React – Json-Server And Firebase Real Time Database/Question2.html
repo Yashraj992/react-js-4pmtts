@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question2</title>
+    <style>
+        h3 {
+            font-size: 20px;
+            line-height: 40px;
+        }
+
+        li {
+            font-size: 19px;
+            line-height: 40px;
+        }
+        pre{
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>What is Json-Server?</h1>
+    <h2>Ans:</h2>
+
+    <p>
+        <li>JSON-Server is an npm module that allows you to create a mock REST API using just a JSON file.</li>
+        <li> It is highly useful for prototyping, testing, or building front-end applications without needing a complex
+            back-end infrastructure.</li>
+        <li>Data is transferred in JSON(JavaScript Object Notation) format between client and server using HTTP methods
+            like GET, POST, PUT, PATCH, and DELETE.</li>
+    </p>
+
+    <h1>How we use in React ?</h1>
+    <h2>Ans:</h2>
+
+    <p>
+    <h3>Step 1:Install JSON-Server</h3>
+    <li>To get started with JSON-Server, install it globally using NPM. Open your terminal and run the following
+        command:</li>
+    <pre>
+        npm install -g json-server</pre>
+    <li>This installs JSON-Server globally, meaning you can access it from anywhere on your system.</li>
+
+    <h3>Step 2:Create a JSON Data File</h3>
+    <li>Next, you need to create a JSON file that will act as your database. For example, you can create a file named
+        db.json and structure it as follows:</li>
+    <pre>
+        {
+            "data": [
+                {
+                    "id": 1,
+                    "name": "JavaScript",
+                    "duration": "3 month"
+                },
+                {
+                    "id": 2,
+                    "name": "React.js",
+                    "duration": "6 month"
+                }
+            ]
+        }
+    </pre>
+
+    <h3>Step 3:Start JSON-Server</h3>
+    <li>Once you have created your db.json file, you can start the JSON-Server with a simple command:</li>
+    <pre>
+        json-server --watch db.json</pre>
+    <li>This command will start the server and watch for changes in the db.json file. By default, the server will be
+        hosted at http://localhost:3000, and you can start making HTTP requests to the endpoints defined in the JSON
+        file.</li>
+    </p>
+</body>
+
+</html>
