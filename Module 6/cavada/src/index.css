@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #F3EBE8;
+}
+
+.home-box h1{
+  color: #FF7377;
+}
+
+.footer-list .list1 li a{
+  list-style: none;
+  color: gray;
+  padding: 0 5px;
+}
+
+.footer-list .list1 li{
+  list-style: none;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.footer-list .list1 li a:hover{
+  color: #FF7377;
+  text-decoration: none;
+}
