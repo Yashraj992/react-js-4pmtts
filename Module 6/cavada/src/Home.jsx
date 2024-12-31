@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import img1 from "./assets/img/home.png"
 import img2 from './assets/img/section1.webp'
@@ -13,27 +13,31 @@ import feedback from './assets/img/feedback.png'
 import emp from './assets/img/emp.png'
 import reservation from './assets/img/reservation.webp'
 import Footer from './Footer'
+import Aos from 'aos'
 
 export default function Home() {
+    useEffect(()=>{
+        Aos.init();
+    },[])
     return (
         <>
             <Navbar />
 
             {/* Home */}
             <div className="home container flex">
-                <div className="col-md-6 mt-32">
+                <div className="col-md-6 mt-32" data-aos="fade-right" data-aos-duration="1000">
                     <h1 className='text-8xl w-96 p-3'>Fresh & Tasty</h1>
                     <p className='p-2 text-2xl'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <button className='btn text-white px-4 py-2 m-2' style={{ backgroundColor: "#FF7377" }}>Make a Reservation</button>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                     <img src={img1} alt="" className='img-fluid' />
                 </div>
             </div>
 
             {/* Home-menu */}
-            <div className="home-menu container flex mt-24 text-center">
+            <div className="home-menu container flex mt-24 text-center" data-aos="fade-up" data-aos-duration="1000">
                 <div className="home-box col-md-3">
                     <h1 className='h-24 text-7xl'>10</h1>
                     <p className='text-2xl '>Shops</p>
@@ -58,30 +62,30 @@ export default function Home() {
             {/* Home-section1 */}
             <div className="home-section1 container mt-36">
                 <div className="home-box1 flex">
-                    <div className="col-md-6">
+                    <div className="col-md-6" data-aos="fade-right" data-aos-duration="1000">
                         <img src={img2} alt="" className='img-fluid' />
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                         <h1 className='text-7xl font-bold p-4'>The best day starts here</h1>
                         <p className='text-2xl p-4'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
 
                 <div className="home-box1 flex mt-24">
-                    <div className="col-md-6 mt-24">
+                    <div className="col-md-6 mt-24" data-aos="fade-right" data-aos-duration="1000">
                         <h1 className='text-4xl font-bold p-4'>Open everyday</h1>
                         <p className='text-2xl p-4'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                         <img src={img3} alt="" className='img-fluid p-8' />
                     </div>
                 </div>
             </div>
 
             {/* New Flowers */}
-            <div className="new-flower mt-24 container text-center" style={{ height: "99vh" }}>
+            <div className="new-flower mt-24 container text-center" style={{ height: "99vh" }} data-aos="fade-up" data-aos-duration="1000">
                 <h1 className='text-5xl p-4'>New Flowers</h1>
                 <p className='text-xl px-24'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
@@ -109,7 +113,7 @@ export default function Home() {
             </div>
 
             {/* Pastry */}
-            <div className="pastry mt-24 container text-center" style={{ height: "99vh" }}>
+            <div className="pastry mt-24 container text-center" style={{ height: "99vh" }} data-aos="fade-up" data-aos-duration="1000">
                 <h1 className='text-5xl p-4'>Pastry</h1>
                 <p className='text-xl px-24'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
@@ -137,14 +141,14 @@ export default function Home() {
             </div>
 
             {/* Feedback */}
-            <div className="feedback container text-center mt-12" style={{ height: "99vh" }}>
+            <div className="feedback container text-center mt-12" style={{ height: "99vh" }} data-aos="fade-up" data-aos-duration="2000">
                 <h1 className='text-5xl font-bold p-2'>People say about us</h1>
                 <p className='text-2xl font-extralight'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
                 <div className="feedback-data flex">
                     <div className="col-md-6 mt-36">
-                        <p className='text-xl text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-                        <div className="feed-data flex">
+                        <p className='text-xl text-left ms-20'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                        <div className="feed-data flex ms-11">
                             <img src={emp} alt="" className='img-fluid p-4' />
                             <div className="emp-name mt-4">
                                 <p className='text-xl'>Julia mark</p>
@@ -161,11 +165,11 @@ export default function Home() {
 
             {/* Reservation */}
             <div className="reservation container flex mt-12" style={{height:"99vh"}}>
-                <div className="reservation-img col-md-8 mt-3">
+                <div className="reservation-img col-md-8 mt-3" data-aos="fade-right" data-aos-duration="2000">
                     <img src={reservation} alt="" className='img-fluid p-2'/>
                 </div>
 
-                <div className="reservation-form col-md-4 mt-36">
+                <div className="reservation-form col-md-4 mt-36" data-aos="fade-left" data-aos-duration="2000">
                     <h1 className='p-1'>Make a Reservation</h1>
                     <form action="" className='form'>
                         <input type="text" placeholder='Name' className='form-control' required/>

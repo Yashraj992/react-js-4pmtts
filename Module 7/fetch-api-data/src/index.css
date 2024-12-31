@@ -1,0 +1,14 @@
+.app{
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.data{
+  padding: 20px;
+  box-shadow: 0px 2px 5px 5px;
+}
+.user{
+  padding: 20px;
+  box-shadow: 0px 2px 5px 5px;
+}

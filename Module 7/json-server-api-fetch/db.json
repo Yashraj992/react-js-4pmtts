@@ -1,0 +1,46 @@
+{
+    "produts":[
+        {
+            "name":"samsung s24 ultra",
+            "photo":"https://m.media-amazon.com/images/I/71lD7eGdW-L._AC_UY327_FMwebp_QL65_.jpg",
+            "oldprice":"1,50,500",
+            "price":"1,05,000",
+            "detail":"flegship smartphone"
+        },
+        {
+            "name":"iphone 15pro max",
+            "photo":"https://m.media-amazon.com/images/I/81dT7CUY6GL._AC_UY327_FMwebp_QL65_.jpg",
+            "oldprice":"1,70,500",
+            "price":"1,00,000",
+            "detail":"flegship iphone"
+        },
+        {
+            "name":"samsung s23ultra",
+            "photo":"https://m.media-amazon.com/images/I/81vxWpPpgNL._AC_UY327_FMwebp_QL65_.jpg",
+            "oldprice":"1,00,500",
+            "price":"85,000",
+            "detail":"flegship smartphone"
+        },
+        {
+            "name":"iphone 15plus",
+            "photo":"https://m.media-amazon.com/images/I/71PjpS59XLL._AC_UY327_FMwebp_QL65_.jpg",
+            "oldprice":"1,00,000",
+            "price":"75,000",
+            "detail":"flegship iphone"
+        },
+        {
+            "name":"google pixel 7pro",
+            "photo":"https://m.media-amazon.com/images/I/41CE8MadgsL._AC_UY327_FMwebp_QL65_.jpg",
+            "oldprice":"95,000",
+            "price":"65,000",
+            "detail":"google smartphone"
+        },
+        {
+            "name":"iphone 16pro",
+            "photo":"https://m.media-amazon.com/images/I/61giwQtR1qL._AC_UY327_FMwebp_QL65_.jpg",
+            "oldprice":"1,50,500",
+            "price":"1,20,000",
+            "detail":"Iphone"
+        }
+    ]
+}

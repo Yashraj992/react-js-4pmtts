@@ -1,12 +1,28 @@
 {
-  "AddEmployee": [
+  "employee": [
     {
-      "id": "bbb1",
-      "name": "vdskvbhvbdshv",
-      "firstname": "bdfbbbdzbb",
-      "lastname": "bdfzbbdf",
-      "address": "zdf df f",
-      "age": " d d "
+      "empname": "yashrajsinh",
+      "empfname": "pravinsinh",
+      "emplname": "mori",
+      "empaddress": "ahmedabad",
+      "empage": "24",
+      "id": "1619"
+    },
+    {
+      "id": "7d63",
+      "empname": "krutik",
+      "empfname": "ashokbhai",
+      "emplname": "lakhnotra",
+      "empaddress": "diu",
+      "empage": "21"
+    },
+    {
+      "id": "6c3c",
+      "empname": "vanrajsinh",
+      "empfname": "dhanbha",
+      "emplname": "rathod",
+      "empaddress": "sayla",
+      "empage": "31"
     }
   ]
 }
