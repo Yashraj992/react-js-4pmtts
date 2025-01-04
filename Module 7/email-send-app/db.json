@@ -1,3 +1,11 @@
 {
-  "customer": []
+  "feedback": [
+    {
+      "id": "f4a0",
+      "name": "yashubha",
+      "email": "yash@gmail.com",
+      "phone": "9723411456",
+      "feedback": "good experience"
+    }
+  ]
 }

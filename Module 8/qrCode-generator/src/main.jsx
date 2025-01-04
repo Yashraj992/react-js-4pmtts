@@ -1,9 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Weather from './Weather'
+import './index.css'
+import Qrcode from './Qrcode'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Weather />
+    <Qrcode />
   </StrictMode>,
 )
