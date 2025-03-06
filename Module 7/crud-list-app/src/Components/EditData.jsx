@@ -49,7 +49,7 @@ export default function EditData() {
     return (
         <>
             <Container className='mt-5 p-5 shadow'>
-                <h1>Edit Data</h1>
+                <h1 className='p-2'>Edit Data</h1>
                 <Form>
                     <div className="form-group mt-3">
                         <input type="text" ref={empname} placeholder="Name" className="form-control" />

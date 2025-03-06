@@ -1,14 +1,6 @@
 {
   "employee": [
     {
-      "empname": "yashrajsinh",
-      "empfname": "pravinsinh",
-      "emplname": "mori",
-      "empaddress": "ahmedabad",
-      "empage": "24",
-      "id": "1619"
-    },
-    {
       "id": "7d63",
       "empname": "krutik",
       "empfname": "ashokbhai",
@@ -17,12 +9,20 @@
       "empage": "21"
     },
     {
-      "id": "6c3c",
-      "empname": "vanrajsinh",
-      "empfname": "dhanbha",
-      "emplname": "rathod",
-      "empaddress": "sayla",
-      "empage": "31"
+      "id": "f06b",
+      "empname": "yuvraj",
+      "empfname": "pratapbhai",
+      "emplname": "parmar",
+      "empaddress": "ahmedabad",
+      "empage": "22"
+    },
+    {
+      "id": "cae1",
+      "empname": "nehal",
+      "empfname": "ashokbhai",
+      "emplname": "chauhan",
+      "empaddress": "surendranagar",
+      "empage": "23"
     }
   ]
 }
