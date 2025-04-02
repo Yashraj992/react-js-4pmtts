@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import img1 from '../assets/images/image.gif'
 import img2 from '../assets/images/img1.gif'
 import axios from 'axios';
-import { Form,Row,Container } from 'react-bootstrap';
+import { Form, Row, Container } from 'react-bootstrap';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
 
@@ -80,9 +80,9 @@ export default function Input() {
                                                 <td>{item.empaddress}</td>
                                                 <td>{item.empage}</td>
                                                 <td>
-                                                    <button className='btn btn-danger btn-sm text-white bi bi-trash fs-5'  onClick={()=>{navigate(`delete-data/${item.id}`)}}></button>
+                                                    <button className='btn btn-danger btn-sm text-white bi bi-trash fs-5' onClick={() => { navigate(`delete-data/${item.id}`) }}></button>
                                                     {" "}|{" "}
-                                                    <button className='btn btn-primary btn-sm text-black bi bi-pencil fs-5' onClick={()=>{navigate(`edit-data/${item.id}`)}}></button>
+                                                    <button className='btn btn-primary btn-sm text-black bi bi-pencil fs-5' onClick={() => { navigate(`edit-data/${item.id}`) }}></button>
                                                 </td>
                                             </tr>
                                         </>
@@ -100,7 +100,7 @@ export default function Input() {
                 <div className="modal-dialog" style={{ maxWidth: "70%", marginTop: "6%" }} >
                     <div className="modal-content" >
                         <Row className="row">
-                            <div className="col-md-6 p-5" style={{backgroundColor:"#4a6cd1"}} >
+                            <div className="col-md-6 p-5" style={{ backgroundColor: "#4a6cd1" }} >
                                 <h1 className='p-1 text-white'>
                                     Add Employee <span className="bi bi-person-add" />
                                 </h1>
@@ -131,7 +131,7 @@ export default function Input() {
                                         <input type="text" ref={empage} placeholder="Age" className="form-control" />
                                     </div>
                                     <div className="form-group mt-3">
-                                        <button type='submit' className="btn btn-md btn-primary text-white" style={{backgroundColor:"#4a6cd1"}}>AddEmployee</button>
+                                        <button type='submit' className="btn btn-md btn-primary text-white" style={{ backgroundColor: "#4a6cd1" }}>AddEmployee</button>
                                     </div>
                                 </Form>
                             </div>

@@ -1,6 +1,6 @@
 {
   "name": "crud-list-app",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "json-server":"json-server --watch db.json --port 8000"
+    "json-server":"json-server --watch db.json --port 6000"
   },
   "dependencies": {
     "axios": "^1.7.9",

@@ -4,32 +4,38 @@ import { Container, Row, Form } from 'react-bootstrap'
 import { useNavigate, useParams } from 'react-router-dom';
 
 export default function EditData() {
-    const [data,setData]=useState([]);
+    const [data, setData] = useState([]);
 
-    useEffect(()=>{
-        axios.get(`http://localhost:9000/add/${id}`).then((response)=>{
+    useEffect(() => {
+        axios.get(`http://localhost:9000/add/${id}`).then((response) => {
             setData(response.data);
-            taskname.current.value=response.data.taskname;
-            taskdate.current.value=response.data.taskdate;
-            taskassign.current.value=response.data.taskassign;
+            taskid.current.value = response.data.taskid;
+            taskname.current.value = response.data.taskname;
+            taskphone.current.value = response.data.taskphone;
+            taskdepartment.current.value = response.data.taskdepartment;
+            taskstatus.current.value = response.data.taskstatus;
         })
-    },[])
+    }, [])
 
-    const taskname=useRef("");
-    const taskdate=useRef("");
-    const taskassign=useRef("");
-    const {id} = useParams();
+    const taskid = useRef("");
+    const taskname = useRef("");
+    const taskphone = useRef("");
+    const taskdepartment = useRef("");
+    const taskstatus = useRef("");
+    const { id } = useParams();
     const navigate = useNavigate();
 
-    const updateForm=(e)=>{
+    const updateForm = (e) => {
         e.preventDefault();
-        var upd={
-            taskname:taskname.current.value,
-            taskdate:taskdate.current.value,
-            taskassign:taskassign.current.value
+        var upd = {
+            taskid: taskid.current.value,
+            taskname: taskname.current.value,
+            taskphone: taskphone.current.value,
+            taskdepartment: taskdepartment.current.value,
+            taskstatus: taskstatus.current.value
         }
 
-        axios.put(`http://localhost:9000/add/${id}`,upd).then(()=>{
+        axios.put(`http://localhost:9000/add/${id}`, upd).then(() => {
             navigate('/');
         })
     }
@@ -45,18 +51,28 @@ export default function EditData() {
 
                 <Form onSubmit={updateForm}>
                     <div className="input-group p-2">
-                        <span className='input-group-text bi bi-pencil'></span>
-                        <input type="text" ref={taskname} className='form-control' placeholder='Enter Task Name...' />
+                        <span className='input-group-text'>ID</span>
+                        <input type="tel" ref={taskid} className='form-control' placeholder='Enter Employee Id...' /> <br />
                     </div>
 
                     <div className="input-group p-2">
-                        <span className='input-group-text bi bi-calendar'></span>
-                        <input type="date" ref={taskdate} className='form-control' />
+                        <span className='input-group-text'>NAME</span>
+                        <input type="text" ref={taskname} className='form-control' placeholder='Enter Employee Name...' /> <br />
                     </div>
 
                     <div className="input-group p-2">
-                        <span className='input-group-text bi bi-person'></span>
-                        <input type="text" ref={taskassign} className='form-control' placeholder='Enter Task Assign Name...' />
+                        <span className='input-group-text'>PHONE</span>
+                        <input type="tel" ref={taskphone} className='form-control' placeholder='Enter Employee Phone Number...' /> <br />
+                    </div>
+
+                    <div className="input-group p-2">
+                        <span className='input-group-text'>DEPARTMENT</span>
+                        <input type="text" ref={taskdepartment} className='form-control' placeholder='Enter Employee Department...' /> <br />
+                    </div>
+
+                    <div className="input-group p-2">
+                        <span className='input-group-text'>WORKING STATUS</span>
+                        <input type="text" ref={taskstatus} className='form-control' placeholder='Enter Employee Working Status...' /> <br />
                     </div>
 
                     <div className="input-group p-2">

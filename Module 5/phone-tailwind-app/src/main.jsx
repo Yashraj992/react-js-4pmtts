@@ -23,7 +23,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <>
-    <HashRouter>
+    <HashRouter basename="/phone-tailwind-app">
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route path="/shop" element={<Shop />} />
